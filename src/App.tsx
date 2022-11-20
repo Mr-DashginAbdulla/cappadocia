@@ -1,6 +1,7 @@
 import { Header } from "./pages/header/header";
 import './main.scss';
 import { Home } from "./pages/home/home";
+import { Footer } from "./pages/footer/footer";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <main>
         <Home/>
       </main>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
